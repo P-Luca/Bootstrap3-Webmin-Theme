@@ -12,6 +12,7 @@ sub theme_header {
 	print '<script src="'. $gconfig{'webprefix'} . '/js/jquery.js" type="text/javascript"></script>' , "\n";
 	print '<script src="'. $gconfig{'webprefix'} . '/js/bootstrap.js" type="text/javascript"></script>' , "\n";
 	print '<script src="'. $gconfig{'webprefix'} . '/js/webmin.js" type="text/javascript"></script>' , "\n";
+	print $_[7]."\n";
 	print '</head>' , "\n";
 	print '<body>' , "\n";
 	
